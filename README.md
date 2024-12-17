@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles: attempting to use a file before it's been copied into the image.  The original `Dockerfile` fails to build because `requirements.txt` is referenced before being copied. The `Dockerfile_fixed` provides a corrected version.
